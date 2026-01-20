@@ -4,14 +4,14 @@ class SigninUi extends StatefulWidget {
   const SigninUi({super.key});
 
   @override
-  State<SigninUi> createState() => _SigninUIState();
+  State<SigninUi> createState() => _SigninUiState();
 }
 
-class _SigninUIState extends State<SigninUi> {
+class _SigninUiState extends State<SigninUi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[50],
+      backgroundColor: Colors.grey
     );
   }
 }
