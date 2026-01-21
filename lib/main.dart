@@ -1,18 +1,17 @@
-// ignore_for_file: depend_on_referenced_packages
+
 
 import 'package:flutter/material.dart';
-// แก้ path: จาก view เป็น views (ตามรูปก่อนหน้า) และใช้ relative path เพื่อลดปัญหาชื่อ package ผิด
 import 'views/home_ui.dart'; 
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(
-    // เรียกใช้งานคลาสที่เรียกใช้ widget หลักของแอป
+    
     const FlutterIoTSecondApp(),
   );
 }
 
-// แก้ชื่อ Class ให้ขึ้นต้นด้วยตัวพิมพ์ใหญ่ (PascalCase)
+
 class FlutterIoTSecondApp extends StatefulWidget {
   const FlutterIoTSecondApp({super.key});
 
